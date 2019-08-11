@@ -44,6 +44,6 @@ while True:
 	if cv2.waitKey(1) == 27: 
 		break  # esc to quit
 
-	print(labels[output])
+	print(labels[output], the_time)
 
 cv2.destroyAllWindows()

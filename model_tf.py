@@ -61,7 +61,7 @@ model.compile(optimizer='adam',
 
 #train :)
 print('==========Training==========')
-training = model.fit(X_train, Y_train, epochs=15, steps_per_epoch=56)
+training = model.fit(X_train, Y_train, epochs=12, steps_per_epoch=56)
 plt.plot(training.history['acc'])
 plt.title('model accuracy')
 plt.ylabel('accuracy')
